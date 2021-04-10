@@ -1,0 +1,26 @@
+{
+  "Name": "Flipkart",
+  "Product": "iPhone11",
+  "Details": [
+    {
+      "price": "₹46,999",
+      "pName": "APPLE iPhone 11 (Black, 64 GB)"
+    },
+    {
+      "price": "₹46,999",
+      "pName": "APPLE iPhone 11 (White, 64 GB)"
+    },
+    {
+      "price": "₹46,999",
+      "pName": "APPLE iPhone 11 (Purple, 64 GB)"
+    },
+    {
+      "price": "₹999",
+      "pName": "Wrapo 10\" Selfie Ring Light with Tripod Stand & Cell Ph..."
+    },
+    {
+      "price": "₹39,999",
+      "pName": "Apple iPhone XR (Black, 64 GB) (Includes EarPods, Power..."
+    }
+  ]
+}

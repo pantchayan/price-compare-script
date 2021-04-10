@@ -1,0 +1,26 @@
+{
+  "Name": "Amazon",
+  "Product": "iPhone11",
+  "Details": [
+    {
+      "price": "59,900",
+      "pName": "New Apple iPhone 11 (128GB) - Green"
+    },
+    {
+      "price": "69,900",
+      "pName": "New Apple iPhone 12 Mini (64GB) - Blue"
+    },
+    {
+      "price": "59,900",
+      "pName": "New Apple iPhone 11 (128GB) - White"
+    },
+    {
+      "price": "59,900",
+      "pName": "New Apple iPhone 11 (128GB) - Green"
+    },
+    {
+      "price": "59,900",
+      "pName": "New Apple iPhone 11 (128GB) - Purple"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "Name": "PaytmMall",
+  "Product": "iPhone11",
+  "Details": [
+    {
+      "price": "58,999",
+      "pName": "Apple IPhone 11 128 GB White(Without Earphone & Adapter)"
+    },
+    {
+      "price": "53,999",
+      "pName": "Apple IPhone 11 64 GB Black (Without Earphone & Adapter)"
+    },
+    {
+      "price": "53,999",
+      "pName": "Apple IPhone 11 64 GB Purple(Without Earphone & Adapter)"
+    },
+    {
+      "price": "58,999",
+      "pName": "Apple IPhone 11 128 GB Black(Without Earphone & Adapter)"
+    },
+    {
+      "price": "58,999",
+      "pName": "Apple IPhone 11 128 GB Red(Without Earphone & Adapter)"
+    }
+  ]
+}

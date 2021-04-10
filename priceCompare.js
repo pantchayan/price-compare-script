@@ -5,6 +5,8 @@ let amazonFetch = require("./AmazonFetch");
 let flipkartFetch = require("./FlipkartFetch");
 let paytmmallFetch = require("./PaytmMallFetch");
 
+let writeModule = require("./WritingModule");
+
 let fs = require("fs");
 let links = [
   "https://www.amazon.in",
@@ -29,7 +31,9 @@ console.log("Before");
       browserInstance,
       pName
     );
+
     console.table(amazonArr);
+      writeModule.writeDetails(amazonArr, "Amazon", pName);
 
     let flipkartArr = await flipkartFetch.getListingFromFlipkart(
       links[1],
@@ -37,6 +41,7 @@ console.log("Before");
       pName
     );
     console.table(flipkartArr);
+    writeModule.writeDetails(flipkartArr, "Flipkart", pName);
 
     let paytmMallArr = await paytmmallFetch.getListingFromPaytmMall(
       links[2],
@@ -44,6 +49,7 @@ console.log("Before");
       pName
     );
     console.table(paytmMallArr);
+    writeModule.writeDetails(paytmMallArr, "PaytmMall", pName);
 
   } catch (err) {
     console.log(err);

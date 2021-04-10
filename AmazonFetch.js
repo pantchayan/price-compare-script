@@ -31,7 +31,7 @@ async function getListingFromAmazon(link, browserInstance, pName) {
           pName,
         });
       }
-  
+      
       return details;
     }
   
